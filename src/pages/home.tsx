@@ -1,5 +1,7 @@
+import Acount from "@/component/common/acount";
 import Category from "@/component/common/category";
 import Money from "@/component/common/moneyManage";
+import Reasons from "@/component/common/reasons";
 import Hero from "@/components/hero";
 
 function Home() {
@@ -20,7 +22,10 @@ function Home() {
             </div>
             <Category />
             <Money />
-
+            <div className="bg-[#F8F8F8] px-6 pb-28">
+                <Acount />
+                <Reasons />
+            </div>
 
         </>
     );

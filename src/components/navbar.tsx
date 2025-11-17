@@ -17,18 +17,18 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <div className="flex gap-1.5 items-center">
-            {/* <ModeToggle />  */}
+            {/* <ModeToggle /> */}
             <SwitchCustomizationDemo />
-            <div className="rounded-full w-[25px] h-[25px] bg-[#B1E5FC]">
+            <div className="hidden lg:block rounded-full w-[25px] h-[25px] bg-[#B1E5FC]">
               <img src="/others/empty.png" alt="e" className="w-full h-full rounded-[50%]" />
             </div>
-            <span className="text-[10px]">
+            <span className="hidden lg:block text-[10px]">
               +pro
             </span>
-            <AiOutlineDollar />
+            <AiOutlineDollar className="hidden lg:block" />
           </div>
 
-          <Link to={"#"} className=" border rounded-[20px] py-[7px] px-[15px] text-[16px]">Sign In</Link>
+          <Link to={"#"} className=" border rounded-[20px] py-[7px] px-[15px] text-[8px] sm:text-[16px] md:text-[8px] md:text-center lg:text-[16px]">Sign In</Link>
 
           {/* Mobile Menu */}
           <div className="md:hidden">

@@ -8,6 +8,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { useTheme } from "./theme-provider"
+import SwitchCustomizationDemo from "@/components/switch-07"
 
 
 export function ModeToggle(): React.ReactNode {
@@ -17,9 +18,7 @@ export function ModeToggle(): React.ReactNode {
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <Button variant="outline" className="w-[9px] h-[9px] mr-3 py-[9px] px-[16.5px]">
-                    <Sun className="h-[3px] w-[3px] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                    <Moon className="absolute h-[3px] w-[3px] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-                    <span className="sr-only">Toggle theme</span>
+                    <SwitchCustomizationDemo />
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">

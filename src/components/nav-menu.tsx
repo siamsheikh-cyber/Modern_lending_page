@@ -15,7 +15,7 @@ export const NavMenu = (props: ComponentProps<typeof NavigationMenu>) => (
     <NavigationMenuList className="data-[orientation=vertical]:-ms-2 data-[orientation=vertical]:flex-col data-[orientation=vertical]:items-start data-[orientation=vertical]:justify-start bg-black rounded-[100px] px-5">
       <NavigationMenuItem>
         <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-          <Link to="#" className="flex flex-wrap gap-1.5"><AiOutlineHome className="focus:text-white" /> <span>Home</span></Link>
+          <Link to="#" className="flex flex-wrap gap-1.5 "><AiOutlineHome className="focus:text-white" /> <span>Home</span></Link>
         </NavigationMenuLink>
       </NavigationMenuItem>
       <NavigationMenuItem>

@@ -9,14 +9,15 @@ function Home() {
     return (
         <>
             <div
-                className="bg-linear-to-bl from-[#F3F3F3] to-[#D4EFF4CC]"
+                className="bg-[linear-gradient(to_left_bottom,var(--tw-gradient-stops))]
+      from-[#FFD9C1] to-[#fadcfd]"
                 style={{
                     ["--tw-gradient-stops" as any]: `
-                       var(--tw-gradient-from),
-                       #F9C7B2E8 33%,
-                       #F9B2D4E8 66%,
-                       var(--tw-gradient-to)
-                     `
+        var(--tw-gradient-from),
+        #FED5FF 33%,
+        #D6EDFA 66%,
+        var(--tw-gradient-to)
+      `,
                 }}
             >
                 <Hero />

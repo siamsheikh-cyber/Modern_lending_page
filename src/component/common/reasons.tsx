@@ -1,4 +1,7 @@
 import { Button } from "@/components/ui/button";
+import { FaUserGroup } from "react-icons/fa6";
+import { FaDharmachakra } from "react-icons/fa";
+import { FaAlignJustify } from "react-icons/fa";
 
 function Reasons() {
     return (
@@ -20,23 +23,23 @@ function Reasons() {
             <div>
                 <div className="mt-10 flex gap-3 items-center justify-between ">
                     <div className="max-w-3xs p-5 bg-white rounded-[10px] ">
-                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white">Customers</Button>
+                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white"><FaUserGroup />Customers</Button>
                         <p className="text-5xl font-semibold mt-4">20K<sup className="text-2xl">+</sup></p>
                         <p className="mt-6 text-[11px]">
                             In 38 countries, we work as one global team to help clients
                         </p>
                     </div>
-                    <span className="w-1 h-40 bg-gray-500 border border-dashed "></span>
+                    <span className="w-[1.5px] h-30 bg-gray-500 border border-dashed "></span>
                     <div className="max-w-3xs p-5 bg-white rounded-[10px]">
-                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white">Impact</Button>
+                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white"><FaDharmachakra />Impact</Button>
                         <p className="text-5xl font-semibold mt-4">98<sup className="text-2xl">%</sup></p>
                         <p className="mt-6 text-[11px]">
                             We have worked with 89% of the Global 500 companies.
                         </p>
                     </div>
-                    <span className="w-1 h-40 bg-gray-500 border border-dashed "></span>
+                    <span className="w-.5 h-30 bg-gray-500 border border-dashed "></span>
                     <div className="max-w-3xs p-5 bg-white rounded-[10px]">
-                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white">Experience</Button>
+                        <Button className="py-2 px-4 rounded-3xl border text-[#FF5F5F] bg-[#FF5F5F1F] cursor-pointer hover:bg-[#FF5F5F] hover:text-white"><FaAlignJustify className="rotate-90" />Experience</Button>
                         <p className="text-5xl font-semibold mt-4">87<sup className="text-2xl">%</sup></p>
                         <p className="mt-6 text-[11px]">
                             We started with a ebellious mindset and set ourselves the challange

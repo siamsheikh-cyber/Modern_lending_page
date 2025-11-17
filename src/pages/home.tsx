@@ -1,5 +1,6 @@
 import Acount from "@/component/common/acount";
 import Category from "@/component/common/category";
+import Customers from "@/component/common/customers/customers";
 import Money from "@/component/common/moneyManage";
 import Reasons from "@/component/common/reasons";
 import Hero from "@/components/hero";
@@ -26,6 +27,7 @@ function Home() {
                 <Acount />
                 <Reasons />
             </div>
+            <Customers />
 
         </>
     );

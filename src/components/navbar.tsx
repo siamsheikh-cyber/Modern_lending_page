@@ -3,7 +3,8 @@ import { NavMenu } from "@/components/nav-menu";
 import { NavigationSheet } from "@/components/navigation-sheet";
 import { AiOutlineDollar } from "react-icons/ai";
 import { Link } from "react-router";
-import { ModeToggle } from "@/component/darkMode/mode-toggle";
+// import { ModeToggle } from "@/component/darkMode/mode-toggle";
+import SwitchCustomizationDemo from "./switch-07";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,8 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <div className="flex gap-1.5 items-center">
-            <ModeToggle />
+            {/* <ModeToggle />  */}
+            <SwitchCustomizationDemo />
             <div className="rounded-full w-[25px] h-[25px] bg-[#B1E5FC]">
               <img src="/others/empty.png" alt="e" className="w-full h-full rounded-[50%]" />
             </div>
